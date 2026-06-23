@@ -1,16 +1,7 @@
-# SER9 AI + FPGA Workstation
+# SER9 AI + FPGA Workstation Engineering Manual
 
-Platform
+## Current Milestone
 
-- Mini PC : SER9
-- CPU : AMD Ryzen AI 9 HX 370
-- GPU : Radeon 890M (gfx1150)
-- OS : Ubuntu 24.04.4 LTS
+- ✅ M0 Golden Baseline
 
-This repository contains:
-
-- Documentation
-- Installation Scripts
-- Verification Scripts
-- Architecture Diagrams
-- Benchmarks
+Generated: 2026-06-23
