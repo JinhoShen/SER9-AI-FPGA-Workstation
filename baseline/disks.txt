@@ -1,0 +1,16 @@
+NAME        FSTYPE   FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+loop0       squashfs 4.0                                                    0   100% /snap/bare/5
+loop1       squashfs 4.0                                                    0   100% /snap/core22/2292
+loop2       squashfs 4.0                                                    0   100% /snap/firefox/7766
+loop3       squashfs 4.0                                                    0   100% /snap/firmware-updater/210
+loop4       squashfs 4.0                                                    0   100% /snap/gnome-42-2204/247
+loop5       squashfs 4.0                                                    0   100% /snap/gtk-common-themes/1535
+loop6       squashfs 4.0                                                    0   100% /snap/snap-store/1270
+loop7       squashfs 4.0                                                    0   100% /snap/snapd/25935
+loop8       squashfs 4.0                                                    0   100% /snap/snapd-desktop-integration/343
+loop9       squashfs 4.0                                                    0   100% /snap/thunderbird/959
+loop10      squashfs 4.0                                                    0   100% /snap/core24/1643
+loop11      squashfs 4.0                                                    0   100% /snap/firmware-updater/226
+nvme0n1                                                                              
+├─nvme0n1p1 vfat     FAT32       FC60-B08D                                 1G     1% /boot/efi
+└─nvme0n1p2 ext4     1.0         558e25b8-d537-4e18-a43f-0e6fd05b6419  852.9G     2% /

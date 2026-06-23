@@ -1,0 +1,13 @@
+ Static hostname: AMD-HX370-SHEN
+       Icon name: computer-desktop
+         Chassis: desktop 🖥️
+      Machine ID: 69cbc2154f4c4650a07ffef53c52620e
+         Boot ID: e27c706280b64672b478c4443d4492fd
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.17.0-35-generic
+    Architecture: x86-64
+ Hardware Vendor: AZW
+  Hardware Model: SER9
+Firmware Version: STX.3xx.SER9.V103.P8C0M0C15.55.Link.GID.90
+   Firmware Date: Thu 2024-09-26
+    Firmware Age: 1y 8month 3w 5d

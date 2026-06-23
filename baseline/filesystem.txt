@@ -1,0 +1,8 @@
+檔案系統        容量  已用  可用 已用% 掛載點
+tmpfs           2.8G  2.3M  2.7G    1% /run
+/dev/nvme0n1p2  915G   16G  853G    2% /
+tmpfs            14G  4.0K   14G    1% /dev/shm
+tmpfs           5.0M   16K  5.0M    1% /run/lock
+efivarfs        128K   48K   76K   39% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.2M  1.1G    1% /boot/efi
+tmpfs           2.8G  2.5M  2.7G    1% /run/user/1000
