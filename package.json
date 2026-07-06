@@ -1,0 +1,10 @@
+{
+  "name": "ser9-ai-fpga-workstation",
+  "private": true,
+  "scripts": {
+    "docs": "./scripts/build-docs.sh"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.16.0"
+  }
+}

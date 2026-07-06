@@ -1,1 +1,15 @@
+# Backup
 *.bak
+
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/settings.json
+
+# Temporary
+*.tmp
+*.swp
