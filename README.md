@@ -35,14 +35,17 @@ The objective is to provide a fully documented environment that can be rebuilt f
 | VS Code Documentation Environment | ✅ Complete |
 | Mermaid CLI | ✅ Complete |
 | Documentation Build Pipeline | ✅ Complete |
-| ROCm | Planned |
-| Vulkan | Planned |
-| Ryzen AI SDK | Planned |
-| Vivado | Planned |
-| Vitis | Planned |
-| Hermes Agent | Planned |
-
----
+| ROCm 7.2.1 | ✅ Complete |
+| HIP Compute Verification | ✅ Complete |
+| AMD XRT 2.21.75 | ✅ Complete |
+| AMD XDNA DKMS Driver | ✅ Complete |
+| Ryzen AI 1.7.1 | ✅ Complete |
+| ONNX Runtime + VitisAI EP | ✅ Complete |
+| Official AMD Quick Test | ✅ Complete |
+| Vulkan | ⏳ Planned |
+| Vivado | ⏳ Planned |
+| Vitis | ⏳ Planned |
+| Hermes Agent | ⏳ Planned |
 
 ## Repository Structure
 
