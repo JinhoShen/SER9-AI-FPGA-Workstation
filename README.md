@@ -15,8 +15,8 @@ The objective is to provide a fully documented environment that can be rebuilt f
 | Mini PC | Beelink SER9 |
 | CPU | AMD Ryzen AI 9 HX 370 |
 | iGPU | AMD Radeon 890M (gfx1150) |
-| NPU | AMD XDNA 2 NPU |
-| Memory | DDR5 |
+| NPU | AMD XDNA2 NPU |
+| Memory | 32 GB DDR5 |
 | Storage | NVMe SSD |
 | Filesystem | ext4 |
 
@@ -26,11 +26,15 @@ The objective is to provide a fully documented environment that can be rebuilt f
 
 | Component | Status |
 |-----------|--------|
-| Ubuntu 24.04.4 LTS | ✅ |
-| Git | ✅ |
-| Git LFS | ✅ |
-| Baseline Inventory | ✅ |
-| Timeshift | ✅ |
+| Ubuntu 24.04.4 LTS | ✅ Complete |
+| Linux Kernel 6.17.0-35 | ✅ Complete |
+| Git | ✅ Complete |
+| Git LFS | ✅ Complete |
+| Baseline Inventory | ✅ Complete |
+| Timeshift | ✅ Complete |
+| VS Code Documentation Environment | ✅ Complete |
+| Mermaid CLI | ✅ Complete |
+| Documentation Build Pipeline | ✅ Complete |
 | ROCm | Planned |
 | Vulkan | Planned |
 | Ryzen AI SDK | Planned |
@@ -41,15 +45,20 @@ The objective is to provide a fully documented environment that can be rebuilt f
 ---
 
 ## Repository Structure
-baseline/ System baseline information
-benchmark/ Performance benchmark results
-config/ Configuration files
-docs/ Engineering documentation
-figures/ Architecture diagrams
-install/ Installation scripts
-scripts/ Utility scripts
-templates/ Document templates
-verify/ Verification scripts
+
+```text
+baseline/          System baseline information
+benchmark/         Performance benchmark results
+config/            Configuration files
+diagrams/          Diagram source files
+docs/              Engineering documentation
+figures/           Architecture diagrams
+install/           Installation scripts
+output/            Generated documentation assets
+scripts/           Utility and build scripts
+templates/         Document templates
+verify/            Verification scripts
+```
 
 ---
 
@@ -70,9 +79,10 @@ Each milestone follows the same engineering process:
 
 | Milestone | Description | Status |
 |-----------|-------------|--------|
-| M0 | Golden Baseline | ✅ |
-| M1 | Documentation Environment | Planned |
-| M2 | Development Foundation | Planned |
+| M0.0 | Golden Baseline | ✅ Complete |
+| M0.1 | Maintenance Update | ✅ Complete |
+| M1.0 | Documentation Environment and Build Pipeline | ✅ Complete |
+| M2 | Development Foundation | Next |
 | M3 | AMD AI Platform | Planned |
 | M4 | AI Framework | Planned |
 | M5 | FPGA Platform | Planned |
@@ -85,11 +95,19 @@ Each milestone follows the same engineering process:
 
 Current milestone:
 
-**M0 – Golden Baseline**
+**M2 – Development Foundation**
+
+Latest completed milestone:
+
+**M1.0 – Documentation Build Pipeline**
 
 Latest Git Commit:
 
-81093ce
+`568e6e1`
+
+Latest Git Tag:
+
+`M1.0`
 
 ---
 
