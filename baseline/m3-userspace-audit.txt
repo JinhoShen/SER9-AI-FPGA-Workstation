@@ -1,0 +1,24 @@
+===== M3-02 NPU USERSPACE AUDIT =====
+
+===== XRT =====
+
+===== Ryzen AI =====
+ii  libxkbregistry0:amd64                          1.6.0-1build1                                    amd64        library to query available RMLVO
+ii  power-profiles-daemon                          0.21-1ubuntu1                                    amd64        Makes power profiles handling available over D-Bus.
+ii  switcheroo-control                             2.6-2build2                                      amd64        D-Bus service to check the availability of dual-GPU
+
+===== ONNX Runtime =====
+Python package : NOT INSTALLED
+
+===== Python Packages =====
+
+===== Executables =====
+xrt-smi : NOT FOUND
+xbutil : NOT FOUND
+xbutil2 : NOT FOUND
+vai_q_onnx : NOT FOUND
+ryzen-ai-runner : NOT FOUND
+
+===== Environment =====
+
+[M3-02] Userspace audit complete
