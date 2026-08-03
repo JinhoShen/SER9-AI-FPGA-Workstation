@@ -1,0 +1,46 @@
+===== M3-01 NPU RUNTIME DETECTION =====
+Timestamp: 2026-08-03T09:54:53+08:00
+Kernel: 6.17.0-35-generic
+
+===== KERNEL MODULE =====
+amdxdna kernel module: PASS
+
+===== DEVICE NODE =====
+crw-rw---- 1 root render 261, 0  8月  3 09:42 /dev/accel/accel0
+/dev/accel/accel0: PASS
+
+===== DEVICE CLASS =====
+/sys/class/accel/accel0
+sysfs accelerator class: PASS
+
+===== NPU PCI DEVICE =====
+65:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device [1022:150d]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Device [1022:150d]
+65:00.1 Signal processing controller [1180]: Advanced Micro Devices, Inc. [AMD] Device [1022:17f0] (rev 10)
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Device [1022:17f0]
+	Kernel driver in use: amdxdna
+	Kernel modules: amdxdna
+66:00.0 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Device [1022:151f]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Device [1022:15b9]
+	Kernel driver in use: xhci_hcd
+66:00.3 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Device [1022:151a]
+
+===== FIRMWARE =====
+/lib/firmware/amdnpu/1502_00/npu.sbin.1.5.2.380.zst
+/lib/firmware/amdnpu/17f0_10/npu.sbin.1.0.0.63.zst
+/lib/firmware/amdnpu/17f0_11/npu.sbin.1.0.0.166.zst
+Strix NPU firmware: PASS
+
+===== ROCm AGENT VISIBILITY =====
+      Name:                    amdgcn-amd-amdhsa--gfx1150         
+      Name:                    amdgcn-amd-amdhsa--gfx11-generic   
+  Name:                    aie2p                              
+  Marketing Name:          RyzenAI-npu4                       
+  Vendor Name:             AMD                                
+aie2p NPU agent: PASS
+
+===== DRIVER MESSAGES =====
+Kernel messages unavailable without elevated permissions
+
+===== FINAL RESULT =====
+[M3-01] NPU runtime detection: PASS
