@@ -1,0 +1,40 @@
+===== M3-03 NPU XRT VERIFICATION =====
+Timestamp: 2026-08-03T10:21:53+08:00
+
+===== XRT PACKAGE STATUS =====
+xrt-base	2.21.75
+xrt-base-dev	2.21.75
+xrt-npu	2.21.75
+
+===== XRT-SMI =====
+System Configuration
+  OS Name              : Linux
+  Release              : 6.17.0-35-generic
+  Machine              : x86_64
+  CPU Cores            : 24
+  Memory               : 27659 MB
+  Distribution         : Ubuntu 24.04.4 LTS
+  GLIBC                : 2.39
+  Model                : SER9
+  BIOS Vendor          : American Megatrends International, LLC.
+  BIOS Version         : STX.3xx.SER9.V103.P8C0M0C15.55.Link.GID.90
+  Processor            : AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+
+XRT
+  Version              : 2.21.75
+  Branch               : HEAD
+  Hash                 : 4eb1f4392a012b4e6eca759762389c612537f7c7
+  Hash Date            : 2026-03-09 20:30:37
+  amdxdna Version      : 6.17.0-35-generic
+  virtio-pci Version   : 6.17.0-35-generic
+  NPU Firmware Version : 1.0.0.63
+
+Device(s) Present
+|BDF             |Name          |
+|----------------|--------------|
+|[0000:65:00.1]  |RyzenAI-npu4  |
+
+
+
+===== RESULT =====
+[M3-03] NPU XRT verification: PASS
