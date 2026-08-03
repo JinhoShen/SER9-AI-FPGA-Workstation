@@ -1,0 +1,34 @@
+===== M2-06 HIP COMPUTE VERIFICATION =====
+Timestamp: 2026-08-03T09:49:55+08:00
+
+===== HIP COMPILER =====
+HIP version: 7.2.53211-e1a6bc5663
+AMD clang version 22.0.0git (https://github.com/RadeonOpenCompute/llvm-project roc-7.2.1 26084 f58b06dce1f9c15707c5f808fd002e18c2accf7e)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/rocm-7.2.1/lib/llvm/bin
+Configuration file: /opt/rocm-7.2.1/lib/llvm/bin/clang++.cfg
+
+===== COMPILE DEVICE QUERY =====
+Device query compilation: PASS
+
+===== RUN DEVICE QUERY =====
+HIP device count: 1
+Device 0
+  Name: AMD Radeon Graphics
+  Architecture: gfx1150
+  Compute units: 8
+  Global memory: 14501294080 bytes
+HIP device query: PASS
+
+===== COMPILE VECTOR ADD =====
+Vector addition compilation: PASS
+
+===== RUN VECTOR ADD =====
+Elements processed: 1048576
+HIP vector addition: PASS
+
+===== ARCHITECTURE CHECK =====
+gfx1150 execution target: PASS
+
+[M2-06] HIP compute verification: PASS
