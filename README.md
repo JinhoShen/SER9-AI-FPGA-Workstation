@@ -93,23 +93,25 @@ Each milestone follows the same engineering process:
 
 ## Current Status
 
-Current milestone:
+Current Milestone
 
-**M2 – Development Foundation**
+**M3 — AMD Ryzen AI Platform**
 
-Latest completed milestone:
+Status
 
-**M1.0 – Documentation Build Pipeline**
+**COMPLETE**
 
-Latest Git Commit:
+Latest verified platform
 
-`568e6e1`
-
-Latest Git Tag:
-
-`M1.0`
-
----
+- Ubuntu 24.04.4 LTS
+- Linux 6.17.0-35-generic
+- ROCm 7.2.1
+- HIP
+- Radeon 890M (gfx1150)
+- AMD XDNA2 NPU
+- XRT 2.21.75
+- Ryzen AI 1.7.1
+- ONNX Runtime + VitisAIExecutionProvider
 
 ## License
 

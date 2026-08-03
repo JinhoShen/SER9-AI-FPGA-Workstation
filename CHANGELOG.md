@@ -32,3 +32,24 @@ Date: 2026-06-23
 
 PASS
 
+
+## M3.0
+
+Release Date: 2026-08-03
+
+### Added
+
+- AMD XRT 2.21.75
+- amdxdna DKMS driver
+- Ryzen AI 1.7.1
+- ONNX Runtime
+- VitisAIExecutionProvider
+- Official AMD Quick Test
+- M3 engineering documentation
+
+### Verification
+
+- GPU runtime verified
+- HIP verified
+- NPU runtime verified
+- Official Quick Test passed
