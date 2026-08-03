@@ -1,0 +1,16 @@
+[M2-01] Development toolchain verification
+git: PASS
+gcc: PASS
+g++: PASS
+cmake: PASS
+ninja: PASS
+make: PASS
+pkg-config: PASS
+python3: PASS
+pip3: PASS
+node: PASS
+npm: PASS
+C compiler verification: PASS
+C++ compiler verification: PASS
+Python virtual environment verification: PASS
+[M2-01] All required development tools: PASS
