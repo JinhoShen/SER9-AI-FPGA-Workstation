@@ -1,0 +1,49 @@
+[M2-02] Build system verification
+[M2-02] Generator: Ninja
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/tmp.1TzwA7katU
+[1/4] Building C object CMakeFiles/hello_c.dir/src/hello.c.o
+[2/4] Linking C executable hello_c
+[3/4] Building CXX object CMakeFiles/hello_cpp.dir/src/hello.cpp.o
+[4/4] Linking CXX executable hello_cpp
+Internal ctest changing into directory: /tmp/tmp.1TzwA7katU
+Test project /tmp/tmp.1TzwA7katU
+    Start 1: verify_c
+1/2 Test #1: verify_c .........................   Passed    0.00 sec
+    Start 2: verify_cpp
+2/2 Test #2: verify_cpp .......................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.01 sec
+[M2-02] Clean rebuild verification
+[1/1] Cleaning all built files...
+Cleaning... 4 files.
+[1/4] Building C object CMakeFiles/hello_c.dir/src/hello.c.o
+[2/4] Linking C executable hello_c
+[3/4] Building CXX object CMakeFiles/hello_cpp.dir/src/hello.cpp.o
+[4/4] Linking CXX executable hello_cpp
+Internal ctest changing into directory: /tmp/tmp.1TzwA7katU
+Test project /tmp/tmp.1TzwA7katU
+    Start 1: verify_c
+1/2 Test #1: verify_c .........................   Passed    0.00 sec
+    Start 2: verify_cpp
+2/2 Test #2: verify_cpp .......................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.00 sec
+[M2-02] Build system verification: PASS
